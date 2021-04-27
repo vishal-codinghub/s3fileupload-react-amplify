@@ -51,16 +51,16 @@ const App = () => {
   return (
     <AmplifyAuthenticator>
       <AmplifySignIn
-        headerText='AWS TCS Team, Sign-In with Your E-Mail Address'
+        headerText='CT Rad User, Sign-In with Your E-Mail Address'
         slot='sign-in'
       />
       <AmplifySignUp
-        headerText='AWS TCS Team, Sign-Up with Your Valid E-Mail Address'
+        headerText='CT Rad User, Sign-Up with Your Valid E-Mail Address'
         slot='sign-up'
       />
       <div className='header'>
         <h2>
-          <a href='/'>TCS Team Video Uploader</a>
+          <a href='/'>CT Rad File Uploader</a>
         </h2>
       </div>
       <div className='video-uploader'>
